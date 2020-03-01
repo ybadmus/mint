@@ -68,6 +68,7 @@ textarea {
 .form-section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
+  border-bottom: none;
   border-radius: 2px;
   margin: 0 auto;
   width: 318px;
@@ -92,7 +93,6 @@ textarea {
 }
 
 .learn-more {
-  display: block;
   color: #0077c5;
 }
 
@@ -103,4 +103,26 @@ textarea {
 .footer-description {
   font-size: 14px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-footer {
+  margin: 0 auto;
+  width: 350px;
+  border: 1px solid #c7c7c7;
+  border-top: none;
+}
+
+.form-footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px 35px;
+  font-size: 10px;
+  background-color: #eceef1;
+  color: #8d9096;
+  text-align: center;
+}
+
+.form-footer a {
+  color: #0077c5;
 }
