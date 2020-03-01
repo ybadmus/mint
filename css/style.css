@@ -93,6 +93,7 @@ textarea {
 }
 
 .learn-more {
+  display: block;
   color: #0077c5;
 }
 
@@ -125,4 +126,18 @@ textarea {
 
 .form-footer a {
   color: #0077c5;
+}
+
+.footer-content {
+  text-align: center;
+  margin: 0px 92px;
+  padding: 20px 0px;
+  color: #505050;
+  font-size: 12px;
+}
+
+.list-copyright li {
+  display: inline;
+  color: #505050;
+  padding: 0px 10px;
 }
