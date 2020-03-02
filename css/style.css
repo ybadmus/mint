@@ -43,6 +43,10 @@ textarea {
   border: 1px solid #c1c5c8;
 }
 
+.hiddenHeader {
+  display: none;
+}
+
 input:focus, 
 textarea:focus {
   /* Additional highlight for focused elements */
